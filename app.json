@@ -20,15 +20,15 @@
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "6435302294:AAENSHA7GyWEd2TrtQCQEL_4W_gVJ3RV770",
+            "description": "7132822645:AAH4i_V7wkY1wZlDI5xBKyhIhL3vVWMc7aE",
             "required": true
         },
         "OWNER_ID": {
-            "description": "5259332258",
+            "description": "6806097030",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "5259332258",
+            "description": "6806097030",
             "required": true
         }
     },
