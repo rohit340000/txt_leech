@@ -31,7 +31,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("**ℍɪɪ** ┈━═My Freind═━┈😎\n\n I Am A Paid Bot, Please Contact My Owner To Use Me..  @Oye_oo  ")
+    editable = await m.reply_text("**Hyy** ━━❰ Friends 😈 ❱━➣\n\n I Am A Paid Bot, Please Contact My Owner To Use Me..  @Oye_oo  ")
 
 
 @bot.on_message(filters.command("stop"))
@@ -41,9 +41,9 @@ async def restart_handler(_, m):
 
 
 
-@bot.on_message(filters.command(["paradox"]))
+@bot.on_message(filters.command(["ram"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text('𝕋𝕆 ᴅᴏᴡɴʟᴏᴀᴅ ᴀ ᴛxᴛ ғɪʟᴇ 𝕤ᴇɴᴅ ʜᴇʀᴇ ⚡️')
+    editable = await m.reply_text('TxT bhej Jaldi ⚡')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -60,7 +60,7 @@ async def account_login(bot: Client, m: Message):
        os.remove(x)
             # print(len(links)
     except:
-           await m.reply_text("**Invalid file input.**")
+           await m.reply_text("**Bc Txt Bhej 😂 Ye Kya Bhej Diya.**")
            os.remove(x)
            return
     
